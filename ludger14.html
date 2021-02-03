@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .clear{
+        clear: both;
+    }
+    header{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-bottom: 1px solid #ccc;
+    }
+    .center{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2%;
+    }
+    .logo{
+        width: 30%;
+        float: left;
+    }
+    .logo h1{
+        font-size: 25px;  
+        padding: 12px 0;      
+    }
+    .logo a{
+        color: white;
+        text-decoration: none;
+    }
+    nav{
+        width: 70%;
+        float: left;
+    }
+    nav ul{
+        list-style: none;
+        text-align: right;
+        padding: 15px 0;
+    }
+    nav ul li{
+        display: inline;
+        padding: 0 15px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    section.banner{
+        width: 100%;
+        background-image: url(banner1.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 600px;
+    }
+    section.sobre{
+        width: 100%;
+        padding: 20px 0;
+        background-color: #ccc;
+        text-align: center;        
+    }
+    .sobre h1{        
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #249de3;
+        border-bottom: 2px solid #249de3;
+        display: inline;
+    }
+    section.text-sobre{
+        width: 100%;
+        padding: 20px 10%;
+        text-align: center;
+    }
+    .text-sobre p{
+        font-size: 18px;
+        color: rgb(80, 80, 80);
+        margin-bottom: 10px;
+    }
+    section.contato{
+        padding: 30px 0;
+    }
+    section.contato > .center{
+        max-width: 900px;
+    }
+    .contato input[type=text]{
+        width: 100%;
+        height: 30px;
+        border: 1px solid #ccc;
+        padding-left: 8px;
+        margin-top: 10px;
+        font-size: 15px;
+        display: inline-block;
+        outline: 0;
+    }
+    .contato textarea{
+        width: 100%;
+        height: 130px;
+        border: 1px solid #ccc;
+        padding-left: 8px;
+        margin-top: 10px;
+        font-size: 15px;
+        display: inline-block;
+        outline: 0;
+        resize: vertical;
+    }
+    .contato input[type=submit] {
+        cursor: pointer;
+        background-color: #249de3;
+        color: white;
+        border: 0;
+        width: 100px;
+        height: 30px;
+        display: block;
+        border-radius: 30px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    section.pre-footer{
+        width: 100%;
+        padding: 20px 0;
+        background-color: gray;
+        text-align: center;
+    }
+    .pre-footer p{
+        font-size: 22px;
+        color: white;
+    }
+    footer{
+        width: 100%;
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        text-align: center;
+    }
+    footer p{
+        font-size: 22px;
+        color: white;
+    }
+</style>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h1><a href="index.html">TOTI</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+    </header>
+    <section class="banner"></section>
+    <section class="sobre">
+        <div class="center">
+            <h1>Quem Somos</h1>
+        </div>
+    </section>
+    <section class="text-sobre">
+        <div class="center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut libero arcu, lacinia id blandit sed, bibendum quis est. Etiam eget ante dui. Morbi augue quam, ullamcorper non nisi ac, elementum porta elit. Vivamus ac metus porta, molestie mauris eu, elementum lacus. Nam vel nibh et mauris efficitur tempus. Maecenas felis orci, luctus vitae pulvinar commodo, aliquet eu enim. Mauris vel lacus eu nibh venenatis dignissim eu eu lorem. Aenean vehicula lacus nibh, eget fringilla orci tempus sit amet. Pellentesque venenatis diam ut nulla imperdiet mattis.</p>
+
+            <p>Cras porttitor lacus ut tortor mattis malesuada. Nam venenatis urna at ex volutpat bibendum. Mauris augue lacus, vestibulum eget tempus at, ultrices ut purus. Vestibulum auctor arcu at enim tincidunt, ac ultrices arcu dictum. Vestibulum lorem massa, scelerisque sit amet volutpat a, facilisis at urna. Nullam eu leo sem. Curabitur eros orci, pretium at diam non, ultrices condimentum lacus. Vivamus eleifend tortor ac molestie gravida. Cras ultricies sem sit amet nibh tristique commodo. Nulla sit amet sagittis mi, vitae iaculis felis. Aenean pharetra sit amet erat eget ornare.</p>
+        </div>
+    </section>
+    <section class="sobre">
+        <div class="center">
+            <h1>Entre em Contato</h1>
+        </div>
+    </section>
+    <section class="contato">
+        <div class="center">
+            <form>
+                <input type="text" name="nome" placeholder="Insira o seu nome">
+                <input type="text" name="nome" placeholder="Insira o seu email">
+                <textarea placeholder="Mensagem"></textarea>
+                <input type="submit" name="acao" value="Enviar!">
+            </form>
+        </div>
+    </section>
+    <section class="pre-footer">
+        <div class="center">
+            <p>21 98014-6399</p>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            <p>Todos os direitos reservados!</p>
+        </div>
+    </footer>
+</body>
+</html>
