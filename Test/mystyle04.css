@@ -1,0 +1,62 @@
+body {
+  font: 100% Lucida Sans, Verdana;
+  line-height: 26px;
+  background-color: #252525da
+}
+.menuitem {
+  border-radius: 4px;
+  margin: 4px;
+}
+#top {
+  background-color: black;
+  color: #ffffff;
+  padding: 30px;
+  text-align: left;
+}
+#bottom {
+  text-align: center;
+  font-family: "Courier New", Monospace;
+  font-size: 20px;
+  line-height: 14px;
+  color: white;
+}
+footer {
+    text-align: center;
+    background-color: DarkSalmon;
+    padding: 30px;
+    }
+#menulist {
+  padding: 0;
+  overflow: auto;
+  display: inline;
+}
+.menuitem {
+  width: 165px;
+  float: left;
+  background-color: #FFF;
+  border: 1px solid #d4d4d4;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+}
+.menuitem:hover {
+  background-color: rgba(255, 255, 255, 0.411);
+}
+.menuitem:last-child {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+a {
+  color: darkblue;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+img.picture {
+  text-align: left;
+}
