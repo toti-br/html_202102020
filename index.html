@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -5,13 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercício de aula</title>
   </head>
+
   <body>
-    <h1>Nossas páginas</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a><li>
-      </ul>
-    </nav>
+
+    <header>
+      <img src="./img/toti-logo.svg"  width="300px" height="200px"  alt="logo da Toti">
+      <h1>Nossas páginas</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#alunos">Alunos</a></li>
+          <li><a href="#fongas01">Fongas01</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article id="home">
+      <h2>Home</h2>
+      <img src="./img/aprendendo.jpg" width="250px" height="200px" alt="Foto dos alunos em sala de aula">
+      <p><strong>Toti é uma plataforma de ensino que forma refugiados e imigrantes</strong>
+        através de um curso preparado para atender as demandas das empresas.</p>
+      <p>Nosso propósito é inspirar a mudança na vida de refugiados,
+       <em>conectando educação, tecnologia e diversidade</em>.</p>
+
+      <p>A primeira turma de 2021 para o curso dentro desse programa, começou em janeiro.</p>
+    </article>
+
+
+    <main>
+      <div id="alunos">
+        <h2>Alunos</h2>
+        <p>Com relação ao curso de desenvolvedor fullstack, os alunos já aprenderam:</p>
+        <ul>
+        <li>Lógica de Programação;</li>
+        <li>Introdução à Tecnologia;</li>
+        <li>Front-end: Geral</li>
+          <ol>
+            <li>Versionamento de código (Git e Github);</li>
+            <li>Html</li>
+          </ol>
+        </ul>
+      </div>
+    </main>
+
+    <section id="fongas01">
+    	<h2>Fongas01</h2>
+        <p>Nossos alunos compartilham suas experiências aqui: <a href="#">fongas01</a></p>
+    </section>
     
+    <footer>
+      <img src="./img/aluno.jpg" width="25  xpx" height="25px"  alt="Logo do aluno"> &copy; Fernando Fontoura_TOTI_Turma 7 - 2021
+    </footer>
   </body>
 </html>
